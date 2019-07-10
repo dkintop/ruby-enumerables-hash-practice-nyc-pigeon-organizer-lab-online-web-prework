@@ -13,7 +13,9 @@ def nyc_pigeon_organizer(data)
              names_hash[name] ={}
            end
            binding.pry 
-           if name[]
+           if !names_hash[key]
+             
+             
          end
          
          
