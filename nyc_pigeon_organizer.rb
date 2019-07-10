@@ -9,14 +9,15 @@ def nyc_pigeon_organizer(data)
     names = property_descriptor.values.flatten
     end
     
-    names.each do |name|         #this places names into names_hash as keys                             and adds value keys to new_hash
+  names.each do |name|         #this places names into names_hash as keys                             and adds value keys to new_hash
      names_hash[name] = {
         :gender => [nil],
         :color => [nil],
         :lives => [nil]
         }
+     end
      
-   end
+     
     binding.pry
    
    
