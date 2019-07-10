@@ -13,12 +13,12 @@ def nyc_pigeon_organizer(data)
              names_hash[name] ={}
            end
            
-           if !names_hash[name][key]
-             names_hash[name][key] = []
+           if !names_hash[name][property]
+             names_hash[name][property] = []
              
          end
          
-         names_hash[name][key] << property
+         names_hash[name][property] << key
          binding.pry 
          
           
