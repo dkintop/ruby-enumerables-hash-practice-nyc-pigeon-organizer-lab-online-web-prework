@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
            end
            binding.pry 
            if !names_hash[name]
-             names_hash[key] = key
+             names_hash
              
          end
          
