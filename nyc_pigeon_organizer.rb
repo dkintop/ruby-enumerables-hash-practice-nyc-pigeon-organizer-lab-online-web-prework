@@ -1,7 +1,7 @@
 
 require 'pry'
 def nyc_pigeon_organizer(data)
-  data.each |n|
+  data.each do |n|
   
   n
   
