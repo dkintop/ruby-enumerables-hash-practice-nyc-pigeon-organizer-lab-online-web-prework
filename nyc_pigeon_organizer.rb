@@ -5,6 +5,9 @@ def nyc_pigeon_organizer(data)
   names = nil
   
   data.each do |property, property_descriptor|   # this creates array of names
+    property_descriptor.each do |n|
+    
+    
     puts property
     names = property_descriptor.values.flatten
     end
