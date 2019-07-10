@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   names_hash = {}
   names = nil
   
-  data.each do |property, property_descriptor|   # this creates array of names
+  data.each do |property, property_descriptor|# this creates array of names
     puts property
     names = property_descriptor.values.flatten
     end
