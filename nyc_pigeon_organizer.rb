@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(data)
          names_hash[name][property] << key.to_s
          
          
-          
+        end
          end
     
     
