@@ -9,7 +9,9 @@ def nyc_pigeon_organizer(data)
     #property_descriprot = value of property
     property_descriptor.each do |key, names|
          names.each do |name|
-           if 
+           if !names_hash[name]
+             names_hash[name] ={}
+           end
            
            
          
