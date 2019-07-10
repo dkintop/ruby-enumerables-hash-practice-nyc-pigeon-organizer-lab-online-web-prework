@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
     puts property
     names = property_descriptor.values.flatten
     end
-    names.each do
+    #names.each do
       
     
     
