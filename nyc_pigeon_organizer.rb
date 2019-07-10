@@ -18,6 +18,8 @@ def nyc_pigeon_organizer(data)
      name_key[:gender] = nil
      name_key[:lives] = nil
    
+   
+   binding.pry
    end
    
    names_hash
