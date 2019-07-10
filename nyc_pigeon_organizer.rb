@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
              
          end
          
-         names_hash[name][key]
+         names_hash[name][key] << property
          binding.pry 
          
           
