@@ -19,7 +19,7 @@ def nyc_pigeon_organizer(data)
          end
          
          names_hash[name][property] << key.to_s
-         binding.pry 
+         
          
           
          end
