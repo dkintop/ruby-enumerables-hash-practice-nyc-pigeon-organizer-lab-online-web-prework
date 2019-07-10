@@ -12,9 +12,10 @@ def nyc_pigeon_organizer(data)
       
       names_hash << name
       names_hash
+   
     end
     
     
     
-  binding.pry
+  
 end
