@@ -1,8 +1,6 @@
 
 def nyc_pigeon_organizer(data)
   names_hash = {}
-  
-  
   data.each do |property, property_descriptor|  
    
     property_descriptor.each do |key, names|
