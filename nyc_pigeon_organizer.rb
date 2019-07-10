@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
         :lives => [nil]
         }
      end
-     
+     names_hash
      
     #binding.pry
    
