@@ -4,9 +4,8 @@ def nyc_pigeon_organizer(data)
   names_hash = {}
   
   
-  data.each do |property, property_descriptor|   # this creates array of names
-    # property = :color, :gender, :lives 
-    #property_descriprot = value of property
+  data.each do |property, property_descriptor|  
+   
     property_descriptor.each do |key, names|
          names.each do |name|
            if !names_hash[name]
