@@ -14,9 +14,7 @@ def nyc_pigeon_organizer(data)
    end
    
    names_hash.each do |name_key|
-     name_key[:color] = nil
-     name_key[:gender] = nil
-     name_key[:lives] = nil
+     name_key
    
    
    binding.pry
