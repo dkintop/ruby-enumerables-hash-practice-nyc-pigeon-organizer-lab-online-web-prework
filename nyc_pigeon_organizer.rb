@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
   data.each do |property, property_descriptor|   # this creates array of names
     property_descriptor.each do |n|
     
+    
     end
     
     
@@ -23,7 +24,7 @@ def nyc_pigeon_organizer(data)
      end
      names_hash
      
-    binding.pry
+ 
    
    
    
