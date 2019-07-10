@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
       names_hash[name][:color] = nil
       names_hash[name][:gender] = nil
       names_hash[name][:lives] = nil
-      names_hash
+      
    binding.pry
    end
    
