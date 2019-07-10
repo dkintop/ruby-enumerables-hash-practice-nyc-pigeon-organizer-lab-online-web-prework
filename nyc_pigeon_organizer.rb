@@ -8,13 +8,12 @@ def nyc_pigeon_organizer(data)
     puts property
     names = property_descriptor.values.flatten
     end
-    names.each do |name|
-      
-      names_hash[name] = nil
-   
-   binding.pry
-    end
     
+    names.each do |name|
+      names_hash[name] = nil
+   end
+   
+    names_hash
     
     
   
