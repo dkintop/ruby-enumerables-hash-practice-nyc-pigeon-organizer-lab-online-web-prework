@@ -2,10 +2,12 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   names_array = []
+  names = nil
+  
   data.each do |property, property_descriptor|
     names = property_descriptor.values.flatten
-    
     end
-  names
+    names
+    
   binding.pry
 end
