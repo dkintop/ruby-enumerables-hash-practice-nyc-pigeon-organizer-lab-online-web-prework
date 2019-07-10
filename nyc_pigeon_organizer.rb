@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     if !names_array.inclde?
   
    
-binding.pry
+
 end
   
   
