@@ -8,7 +8,9 @@ def nyc_pigeon_organizer(data)
     # property = :color, :gender, :lives 
     #property_descriprot = value of property
     property_descriptor.each do |key, names|
-    
+         names.each do |name|
+           
+         end
     
     
        binding.pry
