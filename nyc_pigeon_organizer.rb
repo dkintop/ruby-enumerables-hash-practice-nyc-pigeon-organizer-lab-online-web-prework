@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   data.each do |property, property_descriptor|   # this creates array of names
     # property = :color, :gender, :lives 
     #property_descriprot = value of property
-    property_descriptor.each do |n, c|
+    property_descriptor.each do |key, names|
     
        binding.pry
     end
