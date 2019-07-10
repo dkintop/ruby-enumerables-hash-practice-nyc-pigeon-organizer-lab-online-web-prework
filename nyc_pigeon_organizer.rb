@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
   names = nil
   
   data.each do |property, property_descriptor|   # this creates array of names
+    # property = :color, :gender, :lives 
     property_descriptor.each do |n, c|
     
        binding.pry
