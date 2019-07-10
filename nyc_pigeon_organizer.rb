@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
     
     names.each do |name|         #this places names into names_hash as keys
       names_hash[name] = :color
+      names_hash[name] = :gender
    binding.pry
    end
    
