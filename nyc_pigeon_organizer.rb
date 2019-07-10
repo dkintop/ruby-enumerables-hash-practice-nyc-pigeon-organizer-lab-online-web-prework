@@ -10,8 +10,7 @@ def nyc_pigeon_organizer(data)
     end
     names.each do |name|
       
-      names_hash << name
-      names_hash
+      names_hash[name]
    binding.pry
     end
     
