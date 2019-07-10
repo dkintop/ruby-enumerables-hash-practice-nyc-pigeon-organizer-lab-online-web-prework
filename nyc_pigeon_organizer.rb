@@ -17,6 +17,7 @@ def nyc_pigeon_organizer(data)
      name_key[:color] = nil
      name_key[:gender] = nil
      name_key[:lives] = nil
+   
    end
    
    names_hash
