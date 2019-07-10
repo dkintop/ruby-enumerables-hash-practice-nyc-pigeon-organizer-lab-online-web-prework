@@ -11,8 +11,9 @@ def nyc_pigeon_organizer(data)
     
     names.each do |name|         #this places names into names_hash as keys
       names_hash[name] = nil
-      binding.pry
+     
    end
+   
    
    
    
