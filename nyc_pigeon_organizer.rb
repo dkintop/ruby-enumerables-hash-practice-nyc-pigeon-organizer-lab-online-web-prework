@@ -10,9 +10,7 @@ def nyc_pigeon_organizer(data)
     end
     
     names.each do |name|         #this places names into names_hash as keys
-      names_hash[name][:color] = nil
-      names_hash[name][:gender] = nil
-      names_hash[name][:lives] = nil
+      
       
    binding.pry
    end
